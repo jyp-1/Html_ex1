@@ -66,8 +66,7 @@ header{
 /***********************main**********************************/
 .main{
 	width: 47.9166%;
-	height: 900px;
-	
+	min-height:900px;
 	margin : 0 auto;
 	margin-top: 127px;
 	clear: both;
@@ -138,6 +137,15 @@ header{
 	text-align: center;
 	line-height: 36px;
 }
+
+#i1{
+	color: white;
+	text-decoration: none;
+}
+
+#i1:hover{
+	color:  red;
+}
 /*********************Footer*********************************/
 
 footer{
@@ -183,7 +191,7 @@ footer{
 .nav_info_foot > .footer_nav >li{
 	
 	padding-top: 26px;
-	font-size: 12px;
+	font-size: 0.8rem;
 	margin-left: 70px;
 		
 }
@@ -195,13 +203,13 @@ footer{
 .nav_info_foot >.info{
 	padding-top:5px;
 	margin-left: 70px;
-	font-size: 12px;
+	font-size: 0.8rem;
 	color: lightgray;
 }
 
 .nav_info_foot >.copyright{
 	margin-left: 70px;
-	font-size: 11px;
+	font-size: 0.7rem;
 	color: lightgray;
 }
 
@@ -210,6 +218,6 @@ footer{
 	margin-top: 26px;
 	background-color: #A9A9A9;
 	border-style: none;
-	width: 223px;
+	width: 24%;
 	height: 23px;
 }
